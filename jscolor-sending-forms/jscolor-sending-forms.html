@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sending <FORM> data</title>
+</head>
+<body>
+
+
+<script src="jscolor.js"></script>
+
+<form action="show_data.html">
+    <p>
+        Color 1:
+        <input name="color1" class="jscolor" value="99cc00">
+    </p>
+    
+    <p>
+        Color 2 (button):
+        <input name="color2" type="hidden" id="color_value" value="99cc00">
+        <button class="jscolor {valueElement: 'color_value'}">Pick a color</button>
+    </p>
+    
+    <input type="submit">
+</form>
+
+
+<p style="margin-top:3em;">Check out <a href="http://jscolor.com/examples/">more examples at jscolor.com</a>!</p>
+
+
+</body>
+</html>
